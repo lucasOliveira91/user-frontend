@@ -3,6 +3,8 @@
 ## Descrição
 Este projeto foi gerado com [yo angular generator](https://github.com/yeoman/generator-angular) versão 0.16.0. Ele é uma aplicação web para cadastro e gerenciamento de senhas.
 
+![Animação.gif](https://i.imgur.com/Px9fQ50.gif)
+
 ## Stack Tecnológica
 - **Front-end**: AngularJS
 - **Automatização**: Grunt
