@@ -1,0 +1,33 @@
+
+<div class="container">
+  <div class="floating-message"   ng-class="{'error': cadastroCtrl.errorMessage}">
+    {{ cadastroCtrl.successMessage || cadastroCtrl.errorMessage }}
+  </div>
+
+  <h2>Cadastro</h2>
+  <form ng-submit="cadastroCtrl.salvar()">
+    <div class="input-group">
+      <label>Nome:</label>
+      <input type="text" ng-model="cadastroCtrl.usuario.username" required>
+    </div>
+    <div class="input-group">
+      <label>Senha:</label>
+      <input type="password" ng-model="cadastroCtrl.usuario.password" required>
+    </div>
+
+    <!-- Display selected parent user -->
+    <div class="input-group">
+      <label>Usuário Pai:</label>
+      <span>{{cadastroCtrl.usuarioPaiSelecionado.username}}</span>
+    </div>
+
+    <button type="submit">Salvar</button>
+  </form>
+
+  <h3>Lista de Cadastros</h3>
+  <user-tree users="cadastroCtrl.usuarios" select-user="cadastroCtrl.selecionarPai(user)"></user-tree>
+</div>
+
+<div class="bottom-section clearfix">
+  <img src="images/tailor-logo.png" alt="Company Logo" class="company-logo">
+</div>

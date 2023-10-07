@@ -1,0 +1,288 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+/*
+Estilo do Projeto
+ */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #1a1a1a; /* Dark text color from the website */
+  border-bottom: 2px solid #e6e6e6; /* Light gray border */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/*
+Estilo do Formilário
+ */
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1a1a1a; /* Dark text color from the website */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e6e6e6; /* Light gray border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f36f21; /* Primary orange color from the website */
+  color: #fff; /* White text for the button */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d45a00; /* Darker shade of orange for hover effect */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #e6e6e6; /* Light gray border */
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Bottom Section Styles */
+.bottom-section {
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #fff; /* White background for the bottom section */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow at the top of the section */
+}
+
+.company-logo {
+  display: block;
+  max-width: 150px; /* Adjust based on your logo's size */
+  height: auto;
+  margin-right: 20px;
+  float: right; /* Align the logo to the right */
+}
+
+
+/* Clearfix for floated elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  margin-top: 10px;
+}
+
+ul > li > ul > li {
+  margin-left: 20px;
+}
+
+
+.clickable-username {
+  color: blue; /* or any other color you prefer */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-details {
+  flex: 1;
+  flex-grow: 2;
+}
+
+.strength-details {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul > li > ul {
+  margin-top: 5px;
+  padding-left: 20px; /* Indent child users */
+}
+
+.strength-indicator.ruim {
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.strength-indicator.mediana {
+  background-color: yellow;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.strength-indicator.forte {
+  background-color: green;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.clickable-username {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.strength-label {
+  margin-left: 5px;
+}
+
+/*
+  Mensagens
+ */
+.floating-message {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 25px;
+  background-color: #44c767;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: none; /* Initially hidden */
+}
+
+.floating-message.error {
+  background-color: #e74c3c;
+}
+
